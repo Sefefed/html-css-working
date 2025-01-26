@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navbar container */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333; /* Dark background color */
+            padding: 10px 20px;
+        }
+
+        /* Logo */
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* Navbar links */
+        .navbar .nav-links {
+            list-style: none; /* Removes bullet points from links */
+            display: flex;    /* Aligns links horizontally */
+        }
+
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none; /* Removes underline */
+            color: white;          /* White text */
+            font-size: 18px;
+            transition: color 0.3s; /* Smooth transition for hover */
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ff6347; /* Highlight link color on hover (Tomato color) */
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* Stack logo and links vertically */
+                align-items: flex-start;
+            }
+
+            .navbar .nav-links {
+                flex-direction: column; /* Stack links vertically */
+                width: 100%;
+            }
+
+            .navbar .nav-links li {
+                margin: 10px 0; /* Add spacing between links */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Logo -->
+        <a href="#" class="logo">MyWebsite</a>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
