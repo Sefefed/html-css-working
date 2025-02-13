@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+#dark-mode-toggle {
+    display: none;
+}
+
+.dark-mode-label {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Apply Dark Mode */
+#dark-mode-toggle:checked ~ body {
+    background-color: #222;
+    color: #fff;
+}
+
+#dark-mode-toggle:checked ~ body header {
+    background: #111;
+}
+
+#dark-mode-toggle:checked ~ body footer {
+    background: #111;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Layout */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+aside {
+    width: 25%;
+    padding: 20px;
+    background: #ddd;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* About Section */
+.about {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Projects */
+#projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}

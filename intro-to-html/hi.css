@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(237, 235, 233);
+}
+
+.description {
+display: inline-block;
+width: 400px;
+margin-left: 150px;
+} 
+.profile-picture {
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 15px;
+    
+
+ }
+ .text {
+    width: 400px;
+    color: rgb(28, 30, 33);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-seri;
+    font-size: 24px;
+    font-weight: 400;   
+    line-height: 32px;
+    margin-top: 0px;
+    text-align: center;
+ }
+ .white-container {
+    background-color: white;
+    width: 400px;
+    height: 320px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 130px;
+    border-radius: 10px;
+ }
+ .email {
+      display: block;
+      width: 300px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-weight: 600;
+       color: black;
+
+
+ }
+ .password {
+      display: block;
+      width: 300px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-weight: 600;
+       color: black;
+
+
+
+ }
+ .login {
+    background-color: hsl(240, 100%, 50%);
+    display: block;
+      width: 300px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-weight: 600;
+       color: white;
+       border: none;
+        border-radius: 5px;
+ }
+ .forgot {
+    display: block;
+      width: 300px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-weight: 600;
+       color: rgb(11, 11, 227);
+       text-align: center;
+       font-size: 14px;
+ }
+    .create {
+        background-color: green;
+        display: block;
+        width: 150px;
+            height: 40px;
+            margin-left: 133px;
+            margin-top: 20px;
+            font-weight: 600;
+        color: white;
+        border: none;
+            border-radius: 5px;
+            text-align: center;
+    }
