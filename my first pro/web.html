@@ -1,84 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <link rel="stylesheet" href="web.css">
-</head>
-<body>
-
-    <!-- Dark Mode Toggle -->
-    <input type="checkbox" id="dark-mode-toggle">
-    <label for="dark-mode-toggle" class="dark-mode-label">🌙</label>
-
-    <!-- Header -->
-    <header>
-        <h1>Your Name</h1>
-        <p>Web & Mobile Developer</p>
-        <nav>
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<html>
+  <head>
+    <title>sefefedagne.com</title>
+    <link rel="stylesheet" href="web.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="header-name">Sefefe Dagne</div>
+      <div class="header-description">web and mobile developer</div>
+      <div class="header-buttons">
+        <button>About me</button>
+        <button>Projects</button>
+        <button>Skills</button>
+        <button>Gallery</button>
+        <button>Testimonials</button>
+        <button>Contact</button>
+        <img class="profile-picture" src="profile.jpg">
+      </div>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Sidebar -->
-        <aside>
-            <h2>Quick Links</h2>
-            <ul>
-                <li><a href="#">My Resume</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">LinkedIn</a></li>
-            </ul>
-        </aside>
-
-        <!-- About Me Section -->
-        <section class="about">
-            <img src="your-photo.jpg" alt="Your Photo">
-            <p>Welcome to my personal website! I am a passionate software developer learning web and mobile development. This site showcases my journey, projects, and skills.</p>
-        </section>
-    </main>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+      <nav class="nav-section">
+        <div class="nav-links"><picture>
+          <source media="(min-width: )" srcset="">
+          <img src="" alt="">
+        </picture>
+         <h2>Quick Links</h2>
+         <a href="https://sefefed.github.io/Resume/Resume.md" target="_blank">My Resume</a>
+          <a href="https://github.com/Sefefed" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/sefefe-dagne-26a2a3342?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPuuk4n9URm6oTSf3JAGsOg%3D%3D" target="_blank">LinkedIn</a>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
+      </nav>
+
+      <section class="main-body">
+        <div class="left-section">
+          <h1>Hello! I am a passionate software developer learning web and mobile development.</h1>
+          <h1>Welcome to my portfolio!</h1>
         </div>
-    </section>
+        <div right-section>
+          <img class="main-image" src="hi.jpg">
+        </div>
+      </section>
+     
 
-    <!-- Contact Form -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
+     
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+          <p>HTML</p>
+          <div class="progress"><div class="progress-bar html"></div></div>
+        </div>
+        <div class="skill">
+          <p>CSS</p>
+          <div class="progress"><div class="progress-bar css"></div></div>
+        </div>
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="progress"><div class="progress-bar js"></div></div>
+        </div>
+      </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Your Name | All Rights Reserved</p>
-        <p>Connect with me: <a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
+      <footer class="footer-section">
+        
+        <p>© 2025 Sefefe Dagne | All Rights Reserved</p>
+        <p>Connect with me:           <a href="https://github.com/Sefefed" target="_blank">GitHub</a>
+          | <a href="https://www.linkedin.com/in/sefefe-dagne-26a2a3342?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPuuk4n9URm6oTSf3JAGsOg%3D%3D" target="_blank">LinkedIn</a> | <a href="https://twitter.com/@SefefeD91171" target="_blank">Twitter</a></p>
     </footer>
 
-</body>
+      
+    
+  </body>
 </html>
