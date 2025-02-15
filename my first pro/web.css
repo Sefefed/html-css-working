@@ -47,7 +47,7 @@ p {
   position: absolute;
  border-radius: 50%;
  width: 80px;
- length: 80px;
+ height: 80px;
   top: 30px;
   right: 10px;
 }
